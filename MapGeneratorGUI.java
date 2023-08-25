@@ -199,7 +199,7 @@ public class MapGeneratorGUI extends JFrame {
 
 
     private class MapPanel extends JPanel {
-    /**
+    /**6
      * 
      */
     private static final long serialVersionUID = 1L;
@@ -221,19 +221,7 @@ public class MapGeneratorGUI extends JFrame {
                 } else if (map[y][x] == 'X') {
                     g.setColor(Color.DARK_GRAY); // Tree color
                 }
-                
-                /*
-                if (biomeMap[y][x] == Biome.OCEAN) {
-                    g.setColor(Color.BLUE);
-                } else if (biomeMap[y][x] == Biome.BEACH) {
-                    g.setColor(Color.YELLOW);
-                } else if (biomeMap[y][x] == Biome.FOREST) {
-                    g.setColor(Color.GREEN);
-                } else if (biomeMap[y][x] == Biome.DESERT) {
-                    g.setColor(Color.ORANGE);
-                }
-                */
-                // biome map NE RADI, FIX
+               
                 // ... (existing code to handle other cases)
 
             
